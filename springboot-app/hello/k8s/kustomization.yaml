@@ -7,6 +7,9 @@ resources:
 - hello-app-deployment.yaml
 - hello-app-service.yaml
 images:
+- name: jeongau/hello-app
+  newName: jeongau/hello-app
+  newTag: 53e379b
 - name: myanjini/hello-app
   newName: myanjini/hello-app
   newTag: 9addc5b
